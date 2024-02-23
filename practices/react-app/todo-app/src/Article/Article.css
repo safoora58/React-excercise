@@ -1,0 +1,16 @@
+article {
+    background-color: #fff;
+    width: 600px;
+    padding: 50px;
+    margin-top: 40px;
+   box-shadow: rgba(0,0,0,0.05)0 3px 15px;
+}
+
+article h1 {
+    font-size: 30px;
+}
+
+article p {
+    font-size: 15px;
+    line-height: 25px;
+}
