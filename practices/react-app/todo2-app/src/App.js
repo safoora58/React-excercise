@@ -26,7 +26,7 @@ export default class App extends React.Component {
           { id: 1, name: "ava", age: 10 },
           { id: 2, name: "reza", age: 14 },
           { id: 3, name: "ilya", age: 20 },
-          { id: 4, name: "akbar", age: 30 },
+          { id: 4, name: "akbar", age: 50 },
         ]
       })
     }, 3000)
