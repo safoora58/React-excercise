@@ -1,0 +1,30 @@
+li{
+    font-size: 13px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #4c4b53;
+    text-decoration: none;
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+}
+
+h3{
+    font-size: 24px;
+    font-weight: 300;
+    margin-right: 300px;
+    color: #666666;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 16px;
+    height: 16px;
+    margin-left: 50px;
+}
