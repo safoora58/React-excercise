@@ -6,7 +6,7 @@ export default function Headermain() {
         <div className='container'>
             <div className="container-h">
                 <h1>We Change Everything WordPress</h1>
-                <p>This is the only WordPress theme you will ever want to use.</p>
+                <p className='p-h'>This is the only WordPress theme you will ever want to use.</p>
                 <div className="button-box">
                     <div className="read">READ MORE</div>
                     <div className="download">DOWNLOAD NOW</div>

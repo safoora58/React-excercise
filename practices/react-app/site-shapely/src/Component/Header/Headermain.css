@@ -24,7 +24,7 @@ h1 {
     margin-bottom: 20px;
 }
 
-p {
+.p-h {
     font-size: 14px;
     color: #ffffff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -59,13 +59,13 @@ p {
 
 }
 
+.read:hover {
+    background-color: #745cf9;
+}
+
 .download {
     border: 3px solid #ffffff;
     background: transparent;
-}
-
-.read:hover {
-    background-color: #745cf9;
 }
 
 .download:hover {
