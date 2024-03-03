@@ -39,11 +39,12 @@
     color: #292d37;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30px;
+    margin-bottom: 0px;
 }
 
 .p-seo{
     color: #2b2e369a;
-    line-height: 24px;
+    line-height: 30px;
     font-size: 20px;
 }
 
@@ -64,5 +65,5 @@
 }
 
 #read:hover {
-    background-color: #745cf9;
-}
+    background-color: #5a3efd;
+    border: 3px solid #5a3efd;}

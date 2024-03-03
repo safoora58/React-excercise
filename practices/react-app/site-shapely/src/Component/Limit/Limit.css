@@ -1,0 +1,62 @@
+.container-L {
+    width: 100vw;
+    height: 470px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.container-Limit {
+    width: 1280px;
+    height: 230px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.limit {
+    font-size: 60px;
+    color: #292d37;
+    margin-bottom: 20px;
+}
+
+.p-limit {
+    font-size: 14px;
+    color: #2b2e369a;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 40px;
+}
+
+.limit-box {
+    width: 417px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.l-download {
+    width: 200px;
+    height: 54px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #ffffff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: all 0.5s ease;
+}
+
+.l-download {
+    background-color: #907dfa;
+    border: 3px solid #907dfa;
+}
+
+.l-download:hover {
+    background-color: #745cf9;
+    border: 3px solid #745cf9;
+
+}
