@@ -90,7 +90,7 @@ export default class App extends React.Component {
         <User {...this.state.users[1]} />
         <User {...this.state.users[2]} />
         <User {...this.state.users[3]} />
-        <div>{this.state.scores[0]}</div>
+        <div>{this.state.scores[2]}</div>
         <h3>{this.state.count}</h3>
       </div>
     )

@@ -1,0 +1,35 @@
+.container-latesthead{
+    width: 100vw;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box-latesthead{
+    width: 500px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   align-items: center;
+  
+}
+.h2-latesthead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    color: #ffffff;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+
+
+
+.p-latest{
+    color: #ffffff;
+    font-size: 18px;
+}

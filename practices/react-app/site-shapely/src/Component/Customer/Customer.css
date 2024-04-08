@@ -1,0 +1,44 @@
+.containerm-Customer {
+    width: 100vw;
+    height: 460px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/public/images/11.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-Customer {
+    width: 900px;
+    height: 230px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: green;
+}
+
+.Customer {
+    font-size: 30px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: lighter;
+}
+
+.p-Customer {
+    font-size: 15px;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 40px;
+    line-height: 25px;
+}
+
+.carousel-item img{
+    border-radius: 50%;
+}
+
+.carousel-inner{
+    width: 900px;
+}

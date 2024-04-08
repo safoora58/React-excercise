@@ -1,0 +1,12 @@
+#latestmain-image{
+    width: 2000px;
+    height: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#latestmain-image img{
+    width: 500px;
+    height: 345px;
+    margin: 0;
+}
