@@ -5,7 +5,7 @@ import Headermain from './Headermain'
 
 export default function Header() {
   return (
-    <div>
+    <div >
       <Navbar/>
       <Headermain/>
     </div>

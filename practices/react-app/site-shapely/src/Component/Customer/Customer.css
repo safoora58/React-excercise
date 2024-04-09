@@ -10,13 +10,12 @@
 }
 
 .container-Customer {
-    width: 900px;
-    height: 230px;
+    width: 50%;
+    height: 60%;
     display: flex;
     align-items: center;
     flex-direction: column;
     text-align: center;
-    background-color: green;
 }
 
 .Customer {
@@ -35,10 +34,16 @@ font-weight: lighter;
     line-height: 25px;
 }
 
-.carousel-item img{
-    border-radius: 50%;
+.image-Customer{
+    display: flex;
+    width: 50%;
+    height: 30%;
+    align-items: center;
+    justify-content: center;
 }
 
-.carousel-inner{
-    width: 900px;
+.image-Customer img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
 }

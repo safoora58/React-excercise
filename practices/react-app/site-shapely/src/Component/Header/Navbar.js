@@ -7,13 +7,13 @@ export default function Navbar() {
             <div className="logo">
                 <h3>Shapely Demo</h3>
             </div>
-            <ul>
-                <li>HOME</li>
-                <li>BLOG</li>
-                <li>PORTFOLIO</li>
-                <li>ABOUT THE TESTS</li>
-                <li>LEVEL1</li>
-                <li>SHOP</li>
+            <ul className='navul'>
+                <li className='navli'>HOME</li>
+                <li className='navli'>BLOG</li>
+                <li className='navli'>PORTFOLIO</li>
+                <li className='navli'>ABOUT THE TESTS</li>
+                <li className='navli'>LEVEL1</li>
+                <li className='navli'>SHOP</li>
             </ul>
             <div> 
                 <img src="images/icon search.png" />

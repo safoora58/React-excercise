@@ -12,6 +12,7 @@ export default function Seo() {
                     <button id='read'>READ MORE</button>
                 </div>
             </div>
+            
         </div>
     )
 }

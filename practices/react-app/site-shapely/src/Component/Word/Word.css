@@ -1,0 +1,44 @@
+.container-word-main {
+    width: 100vw;
+    height: 230px;
+    background-color: #f1f4f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-word {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.word-h {
+    color: #292d37;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 31px;
+    font-weight: lighter;
+}
+
+#word {
+    width: 300px;
+    height: 54px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #ffffff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #7c66f8;
+    border: 3px solid #7c66f8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: all 0.5s ease;
+}
+
+#word:hover {
+    background-color: #5a3efd;
+    border: 3px solid #5a3efd;
+}

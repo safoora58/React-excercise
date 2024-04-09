@@ -1,12 +1,46 @@
-#latestmain-image{
+#latestmain-image {
     width: 2000px;
     height: 70%;
     display: flex;
     flex-wrap: wrap;
 }
 
-#latestmain-image img{
+#latestmain-image img {
     width: 500px;
     height: 345px;
     margin: 0;
+    transition: all 0.5s ease;
 }
+
+.image-item {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .image {
+    width: 500px;
+    height: 345px;
+    margin: 0;
+    transition: opacity 0.5s, transform 0.5s;
+  }
+  
+  .project-title {
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: bisque;
+    position: absolute;
+   bottom: -40px;
+    left: 40%;
+    opacity: 0;
+    transition: opacity 0.5s, transform 0.5s;
+  }
+  
+  .image-item:hover .image {
+    opacity: 0.7;
+  }
+  
+  .image-item:hover .project-title {
+    opacity: 1;
+    transform: translateY(-150px);
+  }
+  
